@@ -1,5 +1,5 @@
 # my-vim
-
+	
 
 #Description
 
@@ -16,7 +16,15 @@ git clone https://github.com/Ac-heron/my-vim.git
 ```
 
 #Plugins
-[Pathgen](www.baidu.com)
+[Pathogen](https://github.com/tpope/vim-pathogen)
+
+[vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
+
+[vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
+
+[nerdcommenter](https://github.com/scrooloose/nerdcommenter)
+
+[vim-easymotion](https://github.com/Lokaltog/vim-easymotion)
 
 [air-line](https://github.com/bling/vim-airline)
 
@@ -26,10 +34,10 @@ git clone https://github.com/Ac-heron/my-vim.git
 
 [minibufexpl](https://github.com/weynhamz/vim-plugin-minibufexpl)
 
-[nerdtree]https://github.com/scrooloose/nerdtree
+[nerdtree](https://github.com/scrooloose/nerdtree)
 
-[undotree]https://github.com/mbbill/undotree
+[undotree](https://github.com/mbbill/undotree)
 
-[solarized]https://github.com/altercation/solarized
+[solarized](https://github.com/altercation/solarized)
 
 #Key mappings

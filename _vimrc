@@ -66,8 +66,8 @@ execute pathogen#infect()
 
 " 配色方案
 set background=dark
-" colorscheme molokai
-colorscheme solarized
+colorscheme molokai
+" colorscheme solarized
 
 " 禁止光标闪烁
 " set gcr=a:block-blinkon0
