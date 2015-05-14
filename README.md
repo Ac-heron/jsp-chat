@@ -41,3 +41,5 @@ git clone https://github.com/Ac-heron/my-vim.git
 [solarized](https://github.com/altercation/solarized)
 
 #Key mappings
+F1:help
+F2：show menu
