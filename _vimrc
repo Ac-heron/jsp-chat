@@ -155,7 +155,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 
-" @Key Mapping  [ vim-multiple-cursors ] :https://github.com/terryma/vim-multiple-cursors 
+" [ vim-multiple-cursors ] :https://github.com/terryma/vim-multiple-cursors 
 let g:multi_cursor_use_default_mapping=0
 let g:multi_cursor_next_key='<C-d>'
 let g:multi_cursor_prev_key='<C-p>'
@@ -168,25 +168,25 @@ let g:multi_cursor_quit_key='<Esc>'
 " ========================= Key Mapping  Settings Start =========================  
 
 
-" @Key Mapping  [ tagbar ] (https://github.com/majutsushi/tagbar)  Dependencies: ctags(http://ctags.sourceforge.net/)
+" [ tagbar ] (https://github.com/majutsushi/tagbar)  Dependencies: ctags(http://ctags.sourceforge.net/)
 nmap <F8> :TagbarToggle<CR>
 let g:tagbar_ctags_bin='d:\javatools\ctags58\ctags.exe'
 let g:tagbar_width=30
 "autocmd BufReadPost *.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
 
-" @Key Mapping  [ FullScreen ]
+" [ FullScreen ]
 map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
 imap <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
 au GUIEnter * simalt ~x
 
-" @Key Mapping  [ NERDTree ] 
+" [ NERDTree ] 
 map <F7> :NERDTreeToggle<CR> 
 imap <F7> <ESC>:NERDTreeToggle<CR>
 
-" @Key Mapping  [ undotree ]: https://github.com/mbbill/undotree
+" [ undotree ]: https://github.com/mbbill/undotree
 nnoremap <F5> :UndotreeToggle<cr>
 
-" @Key Mapping  [ Menu and Toor bar ]
+" [ Menu and Toor bar ]
 map <silent> <F2> :if &guioptions =~# 'T' <Bar>
         \set guioptions-=T <Bar>
         \set guioptions-=m <bar>
@@ -194,3 +194,5 @@ map <silent> <F2> :if &guioptions =~# 'T' <Bar>
         \set guioptions+=T <Bar>
         \set guioptions+=m <Bar>
     \endif<CR>
+
+" ========================= Key Mapping  Settings End=========================  
