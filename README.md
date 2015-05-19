@@ -42,4 +42,11 @@ git clone https://github.com/Ac-heron/my-vim.git
 
 #Key mappings
 F1:help
+
 F2：show menu
+
+F3: 
+
+F4:
+
+F5:
