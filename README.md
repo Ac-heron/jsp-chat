@@ -49,4 +49,5 @@ F3:
 
 F4:
 
-F5:
+F5:undo
+F7:nerdtree

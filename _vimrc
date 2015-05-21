@@ -133,7 +133,8 @@ set encoding=utf-8
 " 解决consle输出乱码
 language messages zh_CN.utf-8
 " 指定语言
-set guifont=DejaVu\ Sans\ Mono:h12
+"set guifont=DejaVu\ Sans\ Mono:h12
+set guifont=YaHei\ Consolas\ Hybrid:h12
 " 设置文件编码支持格式
 set fencs=utf-8,gbk,ucs-bom,gb18030,gb2312,cp936
 " 指定菜单语言
