@@ -108,7 +108,7 @@ set shiftwidth=4
 " 让 vim 把连续数量的空格视为一个制表符
 set softtabstop=4
 " 禁止折行
-" set nowrap
+set nowrap
 
 " 代码折叠
 set fdm=indent
@@ -125,7 +125,7 @@ set noswapfile
 set backspace=2
 
 
-" 命令行（在状态行下）的高度，默认为1
+" 命令行的高度，默认为1
 set cmdheight=1
 
 " Encoding setting
