@@ -42,6 +42,8 @@ git clone https://github.com/Ac-heron/my-vim.git
 
 [Calendar](https://github.com/itchyny/calendar.vim)
 
+[vim-repeat](https://github.com/tpope/vim-repeat)
+
 #Key mappings
 F1:help
 
