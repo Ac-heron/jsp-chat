@@ -40,6 +40,8 @@ git clone https://github.com/Ac-heron/my-vim.git
 
 [solarized](https://github.com/altercation/solarized)
 
+[Calendar](https://github.com/itchyny/calendar.vim)
+
 #Key mappings
 F1:help
 
