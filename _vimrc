@@ -133,11 +133,10 @@ set encoding=utf-8
 " 解决consle输出乱码
 language messages zh_CN.utf-8
 " 指定语言
-"set guifont=DejaVu\ Sans\ Mono:h12
 set guifont=YaHei\ Consolas\ Hybrid:h12
 " 设置文件编码支持格式
 set fencs=utf-8,gbk,ucs-bom,gb18030,gb2312,cp936
-" 指定菜单语言
+" Menu Language
 " set langmenu=zh_CN.utf-8
 set langmenu=en_US.utf-8
 source $VIMRUNTIME/delmenu.vim
@@ -147,16 +146,16 @@ source $VIMRUNTIME/menu.vim
 filetype plugin on
 
 " @Plugin [ indent-guilde ]
-let g:indent_guides_enable_on_vim_startup=1
-" let g:indent_guides_start_level=2
+"let g:indent_guides_enable_on_vim_startup=1
+"let g:indent_guides_start_level=2
 let g:indent_guides_guide_size=1 
 
-" @Plugin [ vim-airline ] (https://github.com/bling/vim-airline)
+" @Plugin [ vim-airline ]
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 
-" [ vim-multiple-cursors ] :https://github.com/terryma/vim-multiple-cursors 
+" [ vim-multiple-cursors ]
 let g:multi_cursor_use_default_mapping=0
 let g:multi_cursor_next_key='<C-d>'
 let g:multi_cursor_prev_key='<C-p>'
@@ -169,7 +168,7 @@ let g:multi_cursor_quit_key='<Esc>'
 " ========================= Key Mapping  Settings Start =========================  
 
 
-" [ tagbar ] (https://github.com/majutsushi/tagbar)  Dependencies: ctags(http://ctags.sourceforge.net/)
+" [ tagbar ] 
 nmap <F8> :TagbarToggle<CR>
 let g:tagbar_ctags_bin='d:\javatools\ctags58\ctags.exe'
 let g:tagbar_width=30
@@ -184,7 +183,7 @@ au GUIEnter * simalt ~x
 map <F7> :NERDTreeToggle<CR> 
 imap <F7> <ESC>:NERDTreeToggle<CR>
 
-" [ undotree ]: https://github.com/mbbill/undotree
+" [ undotree ]
 nnoremap <F5> :UndotreeToggle<cr>
 
 " [ Menu and Toor bar ]
