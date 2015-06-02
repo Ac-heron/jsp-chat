@@ -138,7 +138,7 @@ set guifont=YaHei\ Consolas\ Hybrid:h12
 set fencs=utf-8,gbk,ucs-bom,gb18030,gb2312,cp936
 " Menu Language
 " set langmenu=zh_CN.utf-8
-set langmenu=en_US.utf-8
+"set langmenu=en_US.utf-8
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 
