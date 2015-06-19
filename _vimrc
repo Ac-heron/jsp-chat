@@ -66,8 +66,8 @@ execute pathogen#infect()
 
 " 配色方案
 set background=dark
-colorscheme molokai
-" colorscheme solarized
+"colorscheme molokai
+colorscheme solarized
 
 " 禁止光标闪烁
 " set gcr=a:block-blinkon0
@@ -138,7 +138,7 @@ set guifont=YaHei\ Consolas\ Hybrid:h12
 set fencs=utf-8,gbk,ucs-bom,gb18030,gb2312,cp936
 " Menu Language
 " set langmenu=zh_CN.utf-8
-"set langmenu=en_US.utf-8
+set langmenu=en_US.utf-8
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 

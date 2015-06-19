@@ -44,6 +44,10 @@ git clone https://github.com/Ac-heron/my-vim.git
 
 [vim-repeat](https://github.com/tpope/vim-repeat)
 
+[vim-repeat]
+
+[sy]
+
 #Key mappings
 F1:help
 
