@@ -145,12 +145,12 @@ source $VIMRUNTIME/menu.vim
 " ========================= Plugins Settings Start =========================  
 filetype plugin on
 
-" @Plugin [ indent-guilde ]
+" [ indent-guilde ]
 "let g:indent_guides_enable_on_vim_startup=1
 "let g:indent_guides_start_level=2
 let g:indent_guides_guide_size=1 
 
-" @Plugin [ vim-airline ]
+" [ vim-airline ]
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
@@ -165,6 +165,7 @@ let g:multi_cursor_quit_key='<Esc>'
 " [minibufexpl]
 let g:miniBufExplUseSingleClick = 1
 
+" [ctrlP]
 
 
 " ========================= Key Mapping  Settings Start =========================  
