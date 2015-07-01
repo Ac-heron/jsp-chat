@@ -124,7 +124,6 @@ set noswapfile
 " 设置退格键可用
 set backspace=2
 
-
 " 命令行的高度，默认为1
 set cmdheight=1
 
@@ -164,8 +163,6 @@ let g:multi_cursor_quit_key='<Esc>'
 
 " [minibufexpl]
 let g:miniBufExplUseSingleClick = 1
-
-" [ctrlP]
 
 
 " ========================= Key Mapping  Settings Start =========================  
