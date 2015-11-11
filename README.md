@@ -46,6 +46,7 @@ git clone https://github.com/Ac-heron/my-vim.git
 
 [vim-repeat]
 
+[vim-emmet](https://github.com/mattn/emmet-vim)
 
 #Key mappings
 F1:help
@@ -58,3 +59,5 @@ F4:
 
 F5:undo
 F7:nerdtree
+
+emmet: `<c-y>,` (Ctrly,)
