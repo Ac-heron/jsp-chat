@@ -1,19 +1,8 @@
 # my-vim
 	
 
-#Description
-
 my vim files
 
-
-#Installation
-
-### Installing use Pathogen:
-```
-cd ~/vim/vimfiles/bundle
-git clone https://github.com/Ac-heron/my-vim.git
-
-```
 
 #Plugins
 [Pathogen](https://github.com/tpope/vim-pathogen)
