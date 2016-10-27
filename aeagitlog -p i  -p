@@ -1,0 +1,168 @@
+[33mcommit 14041bdc744c6df470e5dd9c3f1336663f770e40[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Wed Nov 4 16:18:35 2015 +0800
+
+    alter readme
+
+[33mcommit 4819882be3342d6f9a7c656ff09718b16f35e036[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Fri Sep 18 10:27:31 2015 +0800
+
+    delete some vim-color
+
+[33mcommit 7d22c437291e9b819b21ec33a14c7e485c274b10[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Wed Jul 1 08:50:09 2015 +0800
+
+    delete molokai
+
+[33mcommit a64a869e0043e792b1e87cd9270a95db15b208ff[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Wed Jul 1 08:44:16 2015 +0800
+
+    add oxeded theme
+
+[33mcommit d810cf5e4230a14255b49f613b43064f8342bee9[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Wed Jun 24 15:08:08 2015 +0800
+
+    _vimrc
+
+[33mcommit caa476ecf3eaef1a7693becf1c68309164265b03[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Fri Jun 19 10:39:42 2015 +0800
+
+    0619
+
+[33mcommit 0c9a7b31acf0da9ca25aab5cfc62f6b9317f9d04[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Tue Jun 2 18:13:16 2015 +0800
+
+    syntastic plugin add
+
+[33mcommit 92105c380f63cbb63a65c20079ae5b7831599898[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Tue Jun 2 13:12:32 2015 +0800
+
+    setting minibufxp
+
+[33mcommit 305df81b52de39ee9396c2ff4304b5e036e5df8b[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Tue Jun 2 10:17:00 2015 +0800
+
+    update
+
+[33mcommit c9a5f082d929817c734db34ac65daf05dd75e81e[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Fri May 29 15:40:31 2015 +0800
+
+    disabled the incline to show Calendar nice
+
+[33mcommit 64c5dbe224929b68bbc296d4882098ddd4533600[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Thu May 28 16:57:44 2015 +0800
+
+    add plugin vim-repeat
+
+[33mcommit 7944e3a56c1f18e3e89d6b9a9414e24fa0c8bdea[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Thu May 28 16:57:20 2015 +0800
+
+    add plugin vim-repeat
+
+[33mcommit 115b73ceb564f9d8f877f4378a06b941873820e8[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Thu May 28 16:28:54 2015 +0800
+
+    add plugin Calendar
+
+[33mcommit 9269e638765d22fe8fc86d1e6a97e085564eac06[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Thu May 28 16:26:01 2015 +0800
+
+    add the plugin calendar
+
+[33mcommit 34dbf334d4c5132971aef0ea7a867322fcbc7f84[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Wed May 27 15:07:12 2015 +0800
+
+    alter nowap
+
+[33mcommit 4b3081164aad009d18851e7ce198904b380793ec[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Fri May 22 17:53:24 2015 +0800
+
+    add comments
+
+[33mcommit cff8d5d0b636fc0fd023a3d1097a1202dd7296f3[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Thu May 21 15:40:32 2015 +0800
+
+    add comments
+
+[33mcommit f462ff2f5bcab6d5d26c735ccaaf236ed5420979[m
+Merge: f4ec7fb d56041b
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Tue May 19 17:22:10 2015 +0800
+
+    Merge branch 'master' of https://github.com/Ac-heron/my-vim
+
+[33mcommit f4ec7fb5a39ba2c6e06d5c52d2301735428263ab[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Tue May 19 17:21:50 2015 +0800
+
+    _vimrc
+
+[33mcommit d56041b09b9e769d6a926086d24afe0ac3cdbeaf[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Sun May 17 22:06:45 2015 +0800
+
+    Update README.md
+
+[33mcommit 50fd1b021d4f4279a75543b5bd78e7b43a44c2a8[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Fri May 15 23:01:52 2015 +0800
+
+    Update README.md
+
+[33mcommit 3febb60aaa4c68b06744b30a195d0cfccd013f74[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Thu May 14 13:10:37 2015 +0800
+
+    key mappings setting
+
+[33mcommit a908bda5159b36c1263d1ff864d83dea7c2148ef[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Wed May 13 12:50:20 2015 +0800
+
+    add plugin easymotion
+
+[33mcommit e42c7fd5d3eba9e8ac7aaf130eee337a13648fda[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Tue May 12 12:25:41 2015 +0800
+
+    add plugin lists to readme
+
+[33mcommit 1cfb28db62b776331f514f08e4617aba4ec24f28[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Mon May 11 16:41:59 2015 +0800
+
+    alter readme
+
+[33mcommit 0985eec691cfbca3e68a71f4cc491643a8dc28fb[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Mon May 11 14:04:41 2015 +0800
+
+    Update README.md
+
+[33mcommit 991b47e411132daeb921458fa4be2142c5ab3a6a[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Sat May 9 12:23:46 2015 +0800
+
+    create a readme
+
+[33mcommit da290ef9e9b9c89c1ec8d17ccc0569b84fc235f8[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Fri May 8 17:18:24 2015 +0800
+
+    test

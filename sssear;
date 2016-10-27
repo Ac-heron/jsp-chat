@@ -1,0 +1,255 @@
+[33mcommit 14041bdc744c6df470e5dd9c3f1336663f770e40[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Wed Nov 4 16:18:35 2015 +0800
+
+    alter readme
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 851d580..eaf856b 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -46,7 +46,6 @@[m [mgit clone https://github.com/Ac-heron/my-vim.git[m
+ [m
+ [vim-repeat][m
+ [m
+[31m-[sy][m
+ [m
+ #Key mappings[m
+ F1:help[m
+
+[33mcommit 4819882be3342d6f9a7c656ff09718b16f35e036[m
+Author: Acheron <acheron20122012@gmail.com>
+Date:   Fri Sep 18 10:27:31 2015 +0800
+
+    delete some vim-color
+
+[1mdiff --git a/vim74/colors/delek.vim b/vim74/colors/delek.vim[m
+[1mdeleted file mode 100644[m
+[1mindex 2cb90a5..0000000[m
+[1m--- a/vim74/colors/delek.vim[m
+[1m+++ /dev/null[m
+[36m@@ -1,51 +0,0 @@[m
+[31m-" Vim color file[m
+[31m-" Maintainer:	David Schweikert <dws@ee.ethz.ch>[m
+[31m-" Last Change:	2006 Apr 30[m
+[31m-[m
+[31m-hi clear[m
+[31m-[m
+[31m-let colors_name = "delek"[m
+[31m-[m
+[31m-" Normal should come first[m
+[31m-hi Normal     guifg=Black  guibg=White[m
+[31m-hi Cursor     guifg=bg     guibg=fg[m
+[31m-hi lCursor    guifg=NONE   guibg=Cyan[m
+[31m-[m
+[31m-" Note: we never set 'term' because the defaults for B&W terminals are OK[m
+[31m-hi DiffAdd    ctermbg=LightBlue    guibg=LightBlue[m
+[31m-hi DiffChange ctermbg=LightMagenta guibg=LightMagenta[m
+[31m-hi DiffDelete ctermfg=Blue	   ctermbg=LightCyan gui=bold guifg=Blue guibg=LightCyan[m
+[31m-hi DiffText   ctermbg=Red	   cterm=bold gui=bold guibg=Red[m
+[31m-hi Directory  ctermfg=DarkBlue	   guifg=Blue[m
+[31m-hi ErrorMsg   ctermfg=White	   ctermbg=DarkRed  guibg=Red	    guifg=White[m
+[31m-hi FoldColumn ctermfg=DarkBlue	   ctermbg=Grey     guibg=Grey	    guifg=DarkBlue[m
+[31m-hi Folded     ctermbg=Grey	   ctermfg=DarkBlue guibg=LightGrey guifg=DarkBlue[m
+[31m-hi IncSearch  cterm=reverse	   gui=reverse[m
+[31m-hi LineNr     ctermfg=Brown	   guifg=Brown[m
+[31m-hi ModeMsg    cterm=bold	   gui=bold[m
+[31m-hi MoreMsg    ctermfg=DarkGreen    gui=bold guifg=SeaGreen[m
+[31m-hi NonText    ctermfg=Blue	   gui=bold guifg=gray guibg=white[m
+[31m-hi Pmenu      guibg=LightBlue[m
+[31m-hi PmenuSel   ctermfg=White	   ctermbg=DarkBlue  guifg=White  guibg=DarkBlue[m
+[31m-hi Question   ctermfg=DarkGreen    gui=bold guifg=SeaGreen[m
+[31m-hi Search     ctermfg=NONE	   ctermbg=Yellow guibg=Yellow guifg=NONE[m
+[31m-hi SpecialKey ctermfg=DarkBlue	   guifg=Blue[m
+[31m-hi StatusLine cterm=bold	   ctermbg=blue ctermfg=yellow guibg=gold guifg=blue[m
+[31m-hi StatusLineNC	cterm=bold	   ctermbg=blue ctermfg=black  guibg=gold guifg=blue[m
+[31m-hi Title      ctermfg=DarkMagenta  gui=bold guifg=Magenta[m
+[31m-hi VertSplit  cterm=reverse	   gui=reverse[m
+[31m-hi Visual     ctermbg=NONE	   cterm=reverse gui=reverse guifg=Grey guibg=fg[m
+[31m-hi VisualNOS  cterm=underline,bold gui=underline,bold[m
+[31m-hi WarningMsg ctermfg=DarkRed	   guifg=Red[m
+[31m-hi WildMenu   ctermfg=Black	   ctermbg=Yellow    guibg=Yellow guifg=Black[m
+[31m-[m
+[31m-" syntax highlighting[m
+[31m-hi Comment    cterm=NONE ctermfg=DarkRed     gui=NONE guifg=red2[m
+[31m-hi Constant   cterm=NONE ctermfg=DarkGreen   gui=NONE guifg=green3[m
+[31m-hi Identifier cterm=NONE ctermfg=DarkCyan    gui=NONE guifg=cyan4[m
+[31m-hi PreProc    cterm=NONE ctermfg=DarkMagenta gui=NONE guifg=magenta3[m
+[31m-hi Special    cterm=NONE ctermfg=LightRed    gui=NONE guifg=deeppink[m
+[31m-hi Statement  cterm=bold ctermfg=Blue	     gui=bold guifg=blue[m
+[31m-hi Type	      cterm=NONE ctermfg=Blue	     gui=bold guifg=blue[m
+[31m-[m
+[31m-" vim: sw=2[m
+[1mdiff --git a/vim74/colors/elflord.vim b/vim74/colors/elflord.vim[m
+[1mdeleted file mode 100644[m
+[1mindex f74a828..0000000[m
+[1m--- a/vim74/colors/elflord.vim[m
+[1m+++ /dev/null[m
+[36m@@ -1,50 +0,0 @@[m
+[31m-" local syntax file - set colors on a per-machine basis:[m
+[31m-" vim: tw=0 ts=4 sw=4[m
+[31m-" Vim color file[m
+[31m-" Maintainer:	Ron Aaron <ron@ronware.org>[m
+[31m-" Last Change:	2003 May 02[m
+[31m-[m
+[31m-set background=dark[m
+[31m-hi clear[m
+[31m-if exists("syntax_on")[m
+[31m-  syntax reset[m
+[31m-endif[m
+[31m-let g:colors_name = "elflord"[m
+[31m-hi Normal		guifg=cyan			guibg=black[m
+[31m-hi Comment	term=bold		ctermfg=DarkCyan		guifg=#80a0ff[m
+[31m-hi Constant	term=underline	ctermfg=Magenta		guifg=Magenta[m
+[31m-hi Special	term=bold		ctermfg=DarkMagenta	guifg=Red[m
+[31m-hi Identifier term=underline	cterm=bold			ctermfg=Cyan guifg=#40ffff[m
+[31m-hi Statement term=bold		ctermfg=Yellow gui=bold	guifg=#aa4444[m
+[31m-hi PreProc	term=underline	ctermfg=LightBlue	guifg=#ff80ff[m
+[31m-hi Type	term=underline		ctermfg=LightGreen	guifg=#60ff60 gui=bold[m
+[31m-hi Function	term=bold		ctermfg=White guifg=White[m
+[31m-hi Repeat	term=underline	ctermfg=White		guifg=white[m
+[31m-hi Operator				ctermfg=Red			guifg=Red[m
+[31m-hi Ignore				ctermfg=black		guifg=bg[m
+[31m-hi Error	term=reverse ctermbg=Red ctermfg=White guibg=Red guifg=White[m
+[31m-hi Todo	term=standout ctermbg=Yellow ctermfg=Black guifg=Blue guibg=Yellow[m
+[31m-[m
+[31m-" Common groups that link to default highlighting.[m
+[31m-" You can specify other highlighting easily.[m
+[31m-hi link String	Constant[m
+[31m-hi link Character	Constant[m
+[31m-hi link Number	Constant[m
+[31m-hi link Boolean	Constant[m
+[31m-hi link Float		Number[m
+[31m-hi link Conditional	Repeat[m
+[31m-hi link Label		Statement[m
+[31m-hi link Keyword	Statement[m
+[31m-hi link Exception	Statement[m
+[31m-hi link Include	PreProc[m
+[31m-hi link Define	PreProc[m
+[31m-hi link Macro		PreProc[m
+[31m-hi link PreCondit	PreProc[m
+[31m-hi link StorageClass	Type[m
+[31m-hi link Structure	Type[m
+[31m-hi link Typedef	Type[m
+[31m-hi link Tag		Special[m
+[31m-hi link SpecialChar	Special[m
+[31m-hi link Delimiter	Special[m
+[31m-hi link SpecialComment Special[m
+[31m-hi link Debug		Special[m
+[1mdiff --git a/vim74/colors/evening.vim b/vim74/colors/evening.vim[m
+[1mdeleted file mode 100644[m
+[1mindex 298fd24..0000000[m
+[1m--- a/vim74/colors/evening.vim[m
+[1m+++ /dev/null[m
+[36m@@ -1,56 +0,0 @@[m
+[31m-" Vim color file[m
+[31m-" Maintainer:	Bram Moolenaar <Bram@vim.org>[m
+[31m-" Last Change:	2006 Apr 14[m
+[31m-[m
+[31m-" This color scheme uses a dark grey background.[m
+[31m-[m
+[31m-" First remove all existing highlighting.[m
+[31m-set background=dark[m
+[31m-hi clear[m
+[31m-if exists("syntax_on")[m
+[31m-  syntax reset[m
+[31m-endif[m
+[31m-[m
+[31m-let colors_name = "evening"[m
+[31m-[m
+[31m-hi Normal ctermbg=DarkGrey ctermfg=White guifg=White guibg=grey20[m
+[31m-[m
+[31m-" Groups used in the 'highlight' and 'guicursor' options default value.[m
+[31m-hi ErrorMsg term=standout ctermbg=DarkRed ctermfg=White guibg=Red guifg=White[m
+[31m-hi IncSearch term=reverse cterm=reverse gui=reverse[m
+[31m-hi ModeMsg term=bold cterm=bold gui=bold[m
+[31m-hi StatusLine term=reverse,bold cterm=reverse,bold gui=reverse,bold[m
+[31m-hi StatusLineNC term=reverse cterm=reverse gui=reverse[m
+[31m-hi VertSplit term=reverse cterm=reverse gui=reverse[m
+[31m-hi Visual term=reverse ctermbg=black guibg=grey60[m
+[31m-hi VisualNOS term=underline,bold cterm=underline,bold gui=underline,bold[m
+[31m-hi DiffText term=reverse cterm=bold ctermbg=Red gui=bold guibg=Red[m
+[31m-hi Cursor guibg=Green guifg=Black[m
+[31m-hi lCursor guibg=Cyan guifg=Black[m
+[31m-hi Directory term=bold ctermfg=LightCyan guifg=Cyan[m
+[31m-hi LineNr term=underline ctermfg=Yellow guifg=Yellow[m
+[31m-hi MoreMsg term=bold ctermfg=LightGreen gui=bold guifg=SeaGreen[m
+[31m-hi NonText term=bold ctermfg=LightBlue gui=bold guifg=LightBlue guibg=grey30[m
+[31m-hi Question term=standout ctermfg=LightGreen gui=bold guifg=Green[m
+[31m-hi Search term=reverse ctermbg=Yellow ctermfg=Black guibg=Yellow guifg=Black[m
+[31m-hi SpecialKey term=bold ctermfg=LightBlue guifg=Cyan[m
+[31m-hi Title term=bold ctermfg=LightMagenta gui=bold guifg=Magenta[m
+[31m-hi WarningMsg term=standout ctermfg=LightRed guifg=Red[m
+[31m-hi WildMenu term=standout ctermbg=Yellow ctermfg=Black guibg=Yellow guifg=Black[m
+[31m-hi Folded term=standout ctermbg=LightGrey ctermfg=DarkBlue guibg=LightGrey guifg=DarkBlue[m
+[31m-hi FoldColumn term=standout ctermbg=LightGrey ctermfg=DarkBlue guibg=Grey guifg=DarkBlue[m
+[31m-hi DiffAdd term=bold ctermbg=DarkBlue guibg=DarkBlue[m
+[31m-hi DiffChange term=bold ctermbg=DarkMagenta guibg=DarkMagenta[m
+[31m-hi DiffDelete term=bold ctermfg=Blue ctermbg=DarkCyan gui=bold guifg=Blue guibg=DarkCyan[m
+[31m-hi CursorColumn term=reverse ctermbg=Black guibg=grey40[m
+[31m-hi CursorLine term=underline cterm=underline guibg=grey40[m
+[31m-[m
+[31m-" Groups for syntax highlighting[m
+[31m-hi Constant term=underline ctermfg=Magenta guifg=#ffa0a0 guibg=grey5[m
+[31m-hi Special term=bold ctermfg=LightRed guifg=Orange guibg=grey5[m
+[31m-if &t_Co > 8[m
+[31m-  hi Statement term=bold cterm=bold ctermfg=Yellow guifg=#ffff60 gui=bold[m
+[31m-endif[m
+[31m-hi Ignore ctermfg=DarkGrey guifg=grey20[m
+[31m-[m
+[31m-" vim: sw=2[m
+[1mdiff --git a/vim74/colors/koehler.vim b/vim74/colors/koehler.vim[m
+[1mdeleted file mode 100644[m
+[1mindex a36f9f6..0000000[m
+[1m--- a/vim74/colors/koehler.vim[m
+[1m+++ /dev/null[m
+[36m@@ -1,72 +0,0 @@[m
+[31m-" local syntax file - set colors on a per-machine basis:[m
+[31m-" vim: tw=0 ts=4 sw=4[m
+[31m-" Vim color file[m
+[31m-" Maintainer:	Ron Aaron <ron@ronware.org>[m
+[31m-" Last Change:	2013 May 23[m
+[31m-[m
+[31m-hi clear[m
+[31m-set background=dark[m
+[31m-if exists("syntax_on")[m
+[31m-  syntax reset[m
+[31m-endif[m
+[31m-let g:colors_name = "koehler"[m
+[31m-hi Normal		  guifg=white  guibg=black[m
+[31m-hi Scrollbar	  guifg=darkcyan guibg=cyan[m
+[31m-hi Menu			  guifg=black guibg=cyan[m
+[31m-hi SpecialKey	  term=bold  cterm=bold  ctermfg=darkred  guifg=#cc0000[m
+[31m-hi NonText		  term=bold  cterm=bold  ctermfg=darkred  gui=bold      guifg=#cc0000[m
+[31m-hi Directory	  term=bold  cterm=bold  ctermfg=brown  guifg=#cc8000[m
+[31m-hi ErrorMsg		  term=standout  cterm=bold  ctermfg=grey  ctermbg=red  guifg=White  guibg=Red[m
+[31m-hi Search		  term=reverse  ctermfg=white  ctermbg=red      guifg=white  guibg=Red[m
+[31m-hi MoreMsg		  term=bold  cterm=bold  ctermfg=darkgreen	gui=bold  guifg=SeaGreen[m
+[31m-hi ModeMsg		  term=bold  cterm=bold  gui=bold  guifg=White	guibg=Blue[m
+[31m-hi LineNr		  term=underline  cterm=bold  ctermfg=darkcyan	guifg=Yellow[m
+[31m-hi Question		  term=standout  cterm=bold  ctermfg=darkgreen	gui=bold  guifg=Green[m
+[31m-hi StatusLine	  term=bold,reverse  cterm=bold ctermfg=lightblue ctermbg=white gui=bold guifg=blue guibg=white[m
+[31m-hi StatusLineNC   term=reverse	ctermfg=white ctermbg=lightblue guifg=white guibg=blue[m
+[31m-hi Title		  term=bold  cterm=bold  ctermfg=darkmagenta  gui=bold	guifg=Magenta[m
+[31m-hi Visual		  term=reverse	cterm=reverse  gui=reverse[m
+[31m-hi WarningMsg	  term=standout  cterm=bold  ctermfg=darkred guifg=Red[m
+[31m-hi Cursor		  guifg=bg	guibg=Green[m
+[31m-hi Comment		  term=bold  cterm=bold ctermfg=cyan  guifg=#80a0ff[m
+[31m-hi Constant		  term=underline  cterm=bold ctermfg=magenta  guifg=#ffa0a0[m
+[31m-hi Special		  term=bold  cterm=bold ctermfg=red  guifg=Orange[m
+[31m-hi Identifier	  term=underline   ctermfg=brown  guifg=#40ffff[m
+[31m-hi Statement	  term=bold  cterm=bold ctermfg=yellow	gui=bold  guifg=#ffff60[m
+[31m-hi PreProc		  term=underline  ctermfg=darkmagenta   guifg=#ff80ff[m
+[31m-hi Type			  term=underline  cterm=bold ctermfg=lightgreen  gui=bold  guifg=#60ff60[m
+[31m-hi Error		  term=reverse	ctermfg=darkcyan  ctermbg=black  guifg=Red	guibg=Black[m
+[31m-hi Todo			  term=standout  ctermfg=black	ctermbg=darkcyan  guifg=Blue  guibg=Yellow[m
+[31m-hi CursorLine	  term=underline  guibg=#555555 cterm=underline[m
+[31m-hi CursorColumn	  term=underline  guibg=#555555 cterm=underline[m
+[31m-hi MatchParen	  term=reverse  ctermfg=blue guibg=Blue[m
+[31m-hi TabLine		  term=bold,reverse  cterm=bold ctermfg=lightblue ctermbg=white gui=bold guifg=blue guibg=white[m
+[31m-hi TabLineFill	  term=bold,reverse  cterm=bold ctermfg=lightblue ctermbg=white gui=bold guifg=blue guibg=white[m
+[31m-hi TabLineSel	  term=reverse	ctermfg=white ctermbg=lightblue guifg=white guibg=blue[m
+[31m-hi Underlined	  term=underline cterm=bold,underline ctermfg=lightblue guifg=lightblue gui=bold,underline[m
+[31m-hi Ignore		  ctermfg=black ctermbg=black guifg=black guibg=black[m
+[31m-hi link IncSearch		Visual[m
+[31m-hi link String			Consta

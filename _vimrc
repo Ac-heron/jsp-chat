@@ -52,7 +52,7 @@ endfunction
 "
 "
 " 
-"                         www.iacheron.com   
+"                         www.herohuang.com   
 "                         2015.5.1 
 "
 "
@@ -194,5 +194,10 @@ map <silent> <F2> :if &guioptions =~# 'T' <Bar>
         \set guioptions+=T <Bar>
         \set guioptions+=m <Bar>
     \endif<CR>
+
+" [窗口透明:在gvim.exe加入vimweak.dll后加入以下代码]
+if executable("vimtweak.dll") 
+autocmd guienter * call libcallnr("vimtweak","SetAlpha",222) 
+endif 
 
 " ========================= Key Mapping  Settings End=========================  
