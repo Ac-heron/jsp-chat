@@ -197,7 +197,7 @@ map <silent> <F2> :if &guioptions =~# 'T' <Bar>
 
 " [窗口透明:在gvim.exe加入vimweak.dll后加入以下代码]
 if executable("vimtweak.dll") 
-autocmd guienter * call libcallnr("vimtweak","SetAlpha",222) 
+autocmd guienter * call libcallnr("vimtweak","SetAlpha",230) 
 endif 
 
 " ========================= Key Mapping  Settings End=========================  
